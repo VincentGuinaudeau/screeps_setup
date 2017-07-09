@@ -57,3 +57,6 @@ typings/
 # dotenv environment variables file
 .env
 
+# authentification info for screeps
+screeps_auth.js
+screeps_auth.json

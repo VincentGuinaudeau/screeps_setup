@@ -1,0 +1,26 @@
+{
+  "name": "screeps_setup",
+  "version": "1.0.0",
+  "description": "A bundle of programs who help you spend more screeping on your favorite editor",
+  "main": "Gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VincentGuinaudeau/screeps_setup.git"
+  },
+  "keywords": [
+    "screeps"
+  ],
+  "author": "VincentGuinaudeau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VincentGuinaudeau/screeps_setup/issues"
+  },
+  "homepage": "https://github.com/VincentGuinaudeau/screeps_setup#readme",
+  "dependencies": {
+    "ScreepsAutocomplete": "git+https://github.com/Garethp/ScreepsAutocomplete.git",
+    "gulp-screeps": "git+https://github.com/VincentGuinaudeau/gulp-screeps.git"
+  }
+}
