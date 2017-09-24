@@ -60,3 +60,6 @@ typings/
 # authentification info for screeps
 screeps_auth.js
 screeps_auth.json
+
+#default directory for the screep ia
+ia

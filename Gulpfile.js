@@ -1,6 +1,6 @@
 var gulp = require("gulp");
-var screeps = require("./index.js");
-var options = require("screeps_auth");
+var screeps = require("gulp-screeps");
+var options = require("./screeps_auth.js")();
 
 gulp.task('push', function() {
 	return gulp.src("ia/*.js").pipe(screeps(options));

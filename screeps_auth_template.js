@@ -10,9 +10,9 @@
 */
 
 module.exports = function (callback) {
-	callback(null, {
+	return {
 		email: "EMAIL",
 		password: "PASSWORD",
 		branch: "default"
-	});
+	};
 };
